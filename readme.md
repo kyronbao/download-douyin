@@ -2,13 +2,16 @@
 ##功能
 ### 批量下载抖音的喜欢列表
 
-需要手动替换
+目前需要找到喜欢列表的api,如下
 ```
 https://www.douyin.com/aweme/v1/web/aweme/favorite/?device_platform=webapp&aid=6383&channel=channel_pc_web&sec_user_id=MS4wLjABAAAAH15TwGvaycDpNFJWiyiKIuTDWEkuKzcTqli_H2h8I70&max_cursor=1698608213000&min_cursor=0&whale_cut_token=&cut_version=1&count=18&publish_video_strategy_type=2&pc_client_type=1&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=2195&screen_height=1235&browser_language=en-US&browser_platform=Win32&browser_name=Chrome&browser_version=119.0.0.0&browser_online=true&engine_name=Blink&engine_version=119.0.0.0&os_name=Windows&os_version=10&cpu_core_num=16&device_memory=8&platform=PC&downlink=10&effective_type=4g&round_trip_time=50&webid=7301179433061533199&msToken=vJIge_1ulukuXsQ1lWMIwN8dx74b1bRKqokX4OCL0QErbqQzFS1yuzhIdZo4od84gZpYq906QJN5bOX_EM26swdw7WBnEcEt6ntw-gBw-tX4TjwvmaES5sCX6n-9oQst&X-Bogus=DFSzswVYFyJANCMrtmUayat/pL3m
 ```
-里面的count参数
+在代码中替换，后执行代码
 
-开发时间：2023-11-15，这个时候经测试是可用的
+后续分页api也需要替换
+
+
+开发时间：2023-11-15，目前测试可用
 
 ## 注意
 需要替换代码中的   
